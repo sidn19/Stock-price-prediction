@@ -138,8 +138,11 @@ Naïve Bayes algorithm is a supervised learning algorithm, which is based on **B
  
 Where,
 **P(A|B) is Posterior probability:** Probability of hypothesis A on the observed event B.
+
 **P(B|A) is Likelihood probability:** Probability of the evidence given that the probability of a hypothesis is true.
+
 **P(A) is Prior Probability:** Probability of hypothesis before observing the evidence.
+
 **P(B) is Marginal Probability:** Probability of Evidence.
 
 Here we have used The Gaussian model.
