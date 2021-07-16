@@ -30,7 +30,7 @@ DATASETS:
 Through web scraping we got the historical stock prices data  and historical financial news data from Yahoo finance and Nasdaq respectively.
 Dataset Format: .csv
 HistoricalData_APPLE.csv:( historical stock prices data  )
- 
+ ![image](https://user-images.githubusercontent.com/79561409/125925099-a557df50-836b-405b-abc6-a00e8abcca0e.png)
 News_headlines.csv:( historical financial news data)
  
 
