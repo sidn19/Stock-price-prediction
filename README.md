@@ -151,7 +151,7 @@ The final data after data pre-processing is:
 
  ![16](https://user-images.githubusercontent.com/79561409/125926202-0cf32d6b-9a56-445e-a18e-24ee8ddce4e1.png)
  
-The accuracy score of logistic regression model is:
+The accuracy score of Neural Network model is:
 
  ![17](https://user-images.githubusercontent.com/79561409/125926209-50bac20e-62f0-4f21-b003-6d85178d3eeb.png)
  
