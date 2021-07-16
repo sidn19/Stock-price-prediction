@@ -3,14 +3,17 @@
 
 
 **TITLE:**
+
 STOCK PREDICTION USING ML MODELS.
 
 
 **AIM:**
+
 Stock price prediction using Historical data and financial news with machine learning models.
 
 
 **INTRODUCTION:**
+
 Stock market is trading platform where different investors sale and purchase shares according to stock availability. Stock market ups and downs effects the profit of stakeholders. If market prices going up with available stock, then stakeholders get profit with their purchased stocks. In other case, if market going down with available stock prices, then stakeholders have to face losses. Buyers buy stocks with low prices and sell stocks at high prices and try to get huge profit. Similarly, sellers sell their products at high prices for profit purpose. Stock market (SM) work as trusty platform among sellers and buyers. Advances in Artificial Intelligence (AI) supporting a lot in each field of life with its intelligent features.  Machine learning (ML) is a field of artificial intelligence (AI) that can be considered as we train machines with data and analysis future with test data. SM Prediction provide future trend of stock prices on the basis of previous history. If stakeholders get future predictions, then investment can lead  towards profit. So, for predicting the stock price here, we have used the historical stock prices and historical financial news from Yahoo finance and Nasdaq respectively. Then using this data, we have predicted the stock using different models. The models we have done are:
         1)**** Linear Regression****,( historical stock prices)
        2)**Logistic Regression**,( historical stock prices)
@@ -26,18 +29,26 @@ In each model we have pre-processing the data with respect to the need of the mo
 
 
 **PREREQUISITES:**
+
 You need to install Anaconda python along with the needed libraries like pandas, nltk , sklearn , seaborn , tensorflow , streamlit etc.
 
 **TOOLS USED:**
 Pycharm
+
 Jupyter NoteBook
+
 Google Colab
+
 Spyder
+
 ShareStreamlit
+
 Github
+
 GitBash
 
 **DATASETS:**
+
 Through web scraping we got the historical stock prices data  and historical financial news data from Yahoo finance and Nasdaq respectively.
 
 Dataset Format: **.csv**
@@ -51,6 +62,7 @@ Dataset Format: **.csv**
  ![2](https://user-images.githubusercontent.com/79561409/125926026-96070c5d-2415-483b-928d-5cf5736dfe91.png)
 
 **Stock_Data_with_vader.csv:** (historical stock prices & historical financial news)
+
 ![3](https://user-images.githubusercontent.com/79561409/125926034-3a4a094e-04a9-4e11-ab4d-ac588b3507d7.png)
 
 Data visualization for close price and date: 
@@ -58,6 +70,7 @@ Data visualization for close price and date:
  ![4](https://user-images.githubusercontent.com/79561409/125926054-b00d6626-9c48-4001-a0c1-7a7dba2baa82.png)
  
 **DATA MODELING:**
+
 We have used four machine learning models here to predict the stock:
                   1) **Linear Regression**,( historical stock prices)
                   2)**Logistic Regression**,( historical stock prices)
@@ -67,6 +80,7 @@ We have used four machine learning models here to predict the stock:
   
   
 **LINEAR REGRESSION:**
+
 Linear regression is used for predictions with data that has numeric target variable. During prediction we use some variables as dependent variables and few considered as independent variables. In situation when there is one dependent and one independent variable, we prefer to use linear regression methodologies. Regression can be single variable or multi variable, it depends upon situation named as single variable or multi variable regression.
 
  ![5](https://user-images.githubusercontent.com/79561409/125926062-bab7ad3f-98b3-401f-9a71-32bd35ac575a.png)
@@ -88,6 +102,7 @@ r2= 0.9998357614326422
 
 
 **LOGISTIC REGRESSION:**
+
 Logistic Regression is much similar to the Linear Regression except that how they are used. Linear Regression is used for solving Regression problems,**** whereas Logistic regression is used for solving the classification problems.***
 
  ![9](https://user-images.githubusercontent.com/79561409/125926140-45568b34-7fcd-4c4a-bbdb-8dfe49d06fa7.png)
@@ -114,6 +129,7 @@ Best score is 0.5149105367793241
 
 
 **NAÏVE BAYES:**
+
 Naïve Bayes algorithm is a supervised learning algorithm, which is based on **Bayes theorem** and used for solving classification problems. It is mainly used in text classification that includes a high-dimensional training dataset.
 **Naïve:** It is called Naïve because it assumes that the occurrence of a certain feature is independent of the occurrence of other features. Such as if the fruit is identified on the bases of colour, shape, and taste, then red, spherical, and sweet fruit is recognized as an apple. Hence each feature individually contributes to identify that it is an apple without depending on each other. 
 **Bayes:** It is called Bayes because it depends on the principle of Bayes Theorem. 
@@ -144,7 +160,8 @@ Best score is 0.5251828631138976
 
 
 
-**NEURAL NETWORK:****
+**NEURAL NETWORK:***
+
 Artificial Neural Network can be best represented as a weighted directed graph, where the artificial neurons form the nodes. The association between the neurons outputs and neuron inputs can be viewed as the directed edges with weights. The Artificial Neural Network receives the input signal from the external source in the form of a pattern and image in the form of a vector. These inputs are then mathematically assigned by the notations x(n) for every n number of inputs. A neuron in a neural network is a mathematical function which collects the data or output from previous layer and classifies the data and give output. This algorithm mimics the operation of the human brain to recognize the patterns in the data.
 
 The final data after data pre-processing is:
@@ -162,6 +179,7 @@ The accuracy score of Neural Network model is:
  
  
 **DEPLOYMENT:**
+
 Deploying a machine learning model, known as model deployment, simply means to integrate a machine learning model and integrate it into an existing production environment (1) where it can take in an input and return an output.
 
 The Stock price prediction using Historical data and financial news is trained and tested using Linear Regression Algorithm with 99.98% accuracy. And using streamlit framework, HTML, CSS and python all the necessary files have created along with Procfile file, requirement.txt and setup.sh file.
