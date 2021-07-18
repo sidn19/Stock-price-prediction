@@ -1,15 +1,15 @@
-# Stock price prediction using Historical data and Financial news.
+# APPLE Stock price prediction using Historical data and Financial news.
 **TECHNOCOLABS MACHINE LEARNING INTERNSHIP**
 
 
 **TITLE:**
 
-STOCK PREDICTION USING ML MODELS.
+STOCK PREDICTION OF APPLE USING ML MODELS.
 
 
 **AIM:**
 
-Stock price prediction using Historical data and financial news with machine learning models.
+Stock price prediction using Historical data and financial news of APPLE with machine learning models.
 
 
 **INTRODUCTION:**
