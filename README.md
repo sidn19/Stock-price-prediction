@@ -204,7 +204,7 @@ The Stock price prediction using Historical data and financial news is trained a
 Using ShareStreamlit, Platform as a service we have successfully deployed our model in the online web server and provided ease to end users.
 
 
-**Deployed Online url:*** https://share.streamlit.io/rishitha-8/wholedeploy/main/app.py
+**Deployed Online url:** https://share.streamlit.io/rishitha-8/wholedeploy/main/app.py
 
 When you open the link this is displayed:
 
