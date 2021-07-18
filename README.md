@@ -204,21 +204,22 @@ The Stock price prediction using Historical data and financial news is trained a
 Using ShareStreamlit, Platform as a service we have successfully deployed our model in the online web server and provided ease to end users.
 
 
-**Deployed Online url:** https://share.streamlit.io/rishitha-8/wholedeploy/main/app.py
+**Deployed Online url:** https://share.streamlit.io/rishitha-8/apple-stock-prediction/main/app.py
 
 When you open the link this is displayed:
 
-![24](https://user-images.githubusercontent.com/79561409/126062764-a1e45272-8c99-4779-bbd5-61e3b956f8e5.png)
+![24](https://user-images.githubusercontent.com/79561409/126074927-28f36614-2c2e-488c-8b1c-3419c6a5974b.png)
 
 When you select a Model through SelectBox it opens the respective Models Prediction page.
 
 **Linear Regression:**
 
-![25](https://user-images.githubusercontent.com/79561409/126062769-d3b52772-ae63-418e-a695-5e20e013bb79.png)
+![25](https://user-images.githubusercontent.com/79561409/126074957-1d6f6240-6d93-4da3-803c-66809f6fe501.png)
+
 
 **Neural Network:**(We have even shown whether the predicted Close Price is increased or decreased compared to past data.)
 
-![26](https://user-images.githubusercontent.com/79561409/126062773-d29cf969-0a8f-4573-8d27-8e8fcf29298f.png)
+![26](https://user-images.githubusercontent.com/79561409/126074960-55aff086-7b46-4223-8aba-1b3c48739b0c.png)
 
 
 
