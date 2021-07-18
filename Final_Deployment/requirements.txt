@@ -1,0 +1,8 @@
+pip==21.1.1
+streamlit==0.84.1
+pandas==1.2.4
+numpy==1.19.5
+seaborn==0.11.1
+matplotlib==3.3.4
+sklearn==0.0
+tensorflow==2.5.0
