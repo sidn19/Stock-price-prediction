@@ -25,7 +25,8 @@ In each model we have pre-processing the data with respect to the need of the mo
 **OVERVIEW:**
 1)	Data Cleaning and pre-processing.
 2)	Training the data with various machine learning models.
-3)	 Deploying the best model in streamlit using share streamlit.
+3)	Using Neural Network model by taking last 20 days data we have predicted the 21st days stock data(here,Close Price)
+4)	 Deploying the best model in streamlit using share streamlit.
 
 
 **PREREQUISITES:**
@@ -179,19 +180,52 @@ The accuracy score of Neural Network model is:
  
  
  
+ **** 20 DAYS PREDICTION:****
+Using Neural Network we have taken last 20 days data and predicted the close price for the 21st day along with whether the predicted is increased or decreased compared to the past data.
+
+![20](https://user-images.githubusercontent.com/79561409/126062750-614a03d0-d613-44cc-b61c-88ccec791f95.png)
+
+![21](https://user-images.githubusercontent.com/79561409/126062754-ff4c2782-e92c-4941-8f72-00a72de13202.png)
+
+![22](https://user-images.githubusercontent.com/79561409/126062756-f958898a-da90-4598-b85f-9383265a1c19.png)
+
+![23](https://user-images.githubusercontent.com/79561409/126062760-91af4f90-a5c2-49ee-ae23-d19c609c1714.png)
+
+
+ 
  
  
 **DEPLOYMENT:**
 
 Deploying a machine learning model, known as model deployment, simply means to integrate a machine learning model and integrate it into an existing production environment (1) where it can take in an input and return an output.
 
-The Stock price prediction using Historical data and financial news is trained and tested using Linear Regression Algorithm with 99.98% accuracy. And using streamlit framework, HTML, CSS and python all the necessary files have created along with Procfile file, requirement.txt and setup.sh file.
+The Stock price prediction using Historical data and financial news is trained and tested using Linear Regression Model with 99.98% accuracy and Neural Network Model with rsme of 0.21069903.So,we have deployed both the models in streamlit using streamlit framework, streamlit  Sidebar, streamlit  SelectBox, HTML, CSS and python all the necessary files have created along with Procfile file, requirement.txt and setup.sh file.
 
 Using ShareStreamlit, Platform as a service we have successfully deployed our model in the online web server and provided ease to end users.
 
-Deployed Online url:  https://share.streamlit.io/rishitha-8/linear_deploy/main/app.py
 
- ![19](https://user-images.githubusercontent.com/79561409/125926230-357d71e3-23fa-4a4d-93bf-34065932e86a.png)
+**Deployed Online url:*** https://share.streamlit.io/rishitha-8/wholedeploy/main/app.py
+
+When you open the link this is displayed:
+
+![24](https://user-images.githubusercontent.com/79561409/126062764-a1e45272-8c99-4779-bbd5-61e3b956f8e5.png)
+
+When you select a Model through SelectBox it opens the respective Models Prediction page.
+
+**Linear Regression:**
+
+![25](https://user-images.githubusercontent.com/79561409/126062769-d3b52772-ae63-418e-a695-5e20e013bb79.png)
+
+**Neural Network:**
+
+![26](https://user-images.githubusercontent.com/79561409/126062773-d29cf969-0a8f-4573-8d27-8e8fcf29298f.png)
+
+
+
+
+
+
+
 
 **TEAM MEMBERS:**
 
