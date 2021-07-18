@@ -216,7 +216,7 @@ When you select a Model through SelectBox it opens the respective Models Predict
 
 ![25](https://user-images.githubusercontent.com/79561409/126062769-d3b52772-ae63-418e-a695-5e20e013bb79.png)
 
-**Neural Network:**
+**Neural Network:**(We have even shown whether the predicted Close Price is increased or decreased compared to past data.)
 
 ![26](https://user-images.githubusercontent.com/79561409/126062773-d29cf969-0a8f-4573-8d27-8e8fcf29298f.png)
 
